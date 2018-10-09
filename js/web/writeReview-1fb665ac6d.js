@@ -1,0 +1,1 @@
+$(function(){$('.rating-container input[type="radio"]').on("change",function(){if($(this).is(":checked")){var a=parseInt($(this).val())+1;for($("#postTemplate label > span.styled-radio").css("background-position","-26px 0"),i=1;i<a;i++)$('#postTemplate label > span.styled-radio[data-value="'+i+'"]').css("background-position","0 0")}})});

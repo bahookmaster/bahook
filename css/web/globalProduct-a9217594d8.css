@@ -1,0 +1,115 @@
+.carousel {
+    margin-bottom: 0;
+}
+.carousel-control {
+    left: -12px;
+}
+.carousel-control.right {
+    right: -12px;
+}
+.carousel-indicators {
+    right: 0;
+    top: 80px;
+    bottom: 0px;
+    margin-right: 17%;
+}
+.carousel-indicators li {
+    background: #c0c0c0;
+}
+.carousel-indicators .active {
+    background: #333333;
+}
+.well{
+    background: white;
+    border: none;
+    padding: 0px!important;
+}
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: white;
+}
+a.thumbnail {
+    border-color: white;
+}
+
+.discPer {
+    position: relative;
+    background: #ed0000;
+    color: white;
+    height: 24px;
+    width: 30px;
+    border-radius: 4px 0 0 4px;
+    font-size: 15px;
+    line-height: 25px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+.discPer:after {
+    left: 100%;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(237, 0, 0, 0);
+    border-left-color: #ed0000;
+    border-width: 12px;
+}
+.pack-container{
+    width: 385px !important;
+    margin-right: 0px;
+}
+.pack-prices{
+    width: 118px;
+    padding-right: 0px;
+}
+.pack-item{
+    width: 71px;padding: 0px;
+}
+.pack-item:last-child{
+    margin-left: -2px;
+}
+.deleted-price{
+    position: relative;
+}
+.deleted-price:before{
+    position: absolute;;
+    content:"";
+    left:0;
+    top:50%;
+    right:0;
+    border-top:1px solid;
+    border-color: inherit;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+.pack-plus{
+    padding: 0;
+    width: 28px;
+    font-size: 30px;
+    margin-top: 59px;
+    color: #f23333;
+}
+.pack-plus:last-child{
+    display: none;
+}
+.google{
+    background-color: #DD4B39;
+    border-color: #DD4B39;
+}
+.google:hover{
+    background-color: #e15f4f;
+    border-color:#e15f4f;
+}
+.adminRow{
+    color:#000000;
+    font-size:15px;
+    background: linear-gradient(#c6c6c6 90%, #e8af0d 10%);
+}
+.adminRow *{
+    font-size:15px;
+    line-height: 17px;
+}
+/*# sourceMappingURL=globalProduct.css.map */
